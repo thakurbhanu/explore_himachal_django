@@ -1,0 +1,121 @@
+
+/* css for all of the visible page */
+
+.page{
+    background-color: #E8E8E8;
+}
+
+
+
+
+
+
+/* css for home and contact row */
+
+.header{
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+}
+
+
+
+
+
+
+
+
+/* css for Image of the place */
+
+.image-place{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.9);
+    border: none;
+}
+
+
+/* css for column which contains image */
+
+.image-col{
+    margin-top: 1.7rem;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* .shadow-class{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.9);
+    border: none;
+} */
+
+
+
+
+/* css for heading size 1 */
+
+.place-title{
+    font-size: 6rem;
+    color: #505050;
+}
+
+
+/* css for Heading size 2 */
+
+.place-tagline{
+    font-size: 3rem;
+    color: #505050;
+}
+
+
+#map-button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 2rem;
+}
+
+
+#map-text{
+    padding: 1.1rem;
+}
+
+/* css for name of Place example Malana. */
+/* 
+.place-name{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+} */
+
+
+/* css for quote line of place ex "the oldest democracy" */
+
+/* .place-line{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} */
+
+
+
+
+
+
+
+
+
+/* css for paragraph text style and other things */
+
+.paragraph{
+    font-size: 1.4rem;
+    color: #505050;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    /* text-justify: inter-word; */
+}
+
+.google-map-section{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}

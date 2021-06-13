@@ -1,0 +1,26 @@
+.place-columns{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+
+}
+
+.second-row{
+    margin-top: 5rem;
+}
+
+#explore-text{
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    font-size: 5rem;
+    color: #505050;
+}
+
+
+.header{
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+}
+
+.col{
+    padding-bottom: 5rem;
+}

@@ -1,0 +1,25 @@
+{% extends "base_for_explore.html" %}
+{% load static %}
+{% block content %}
+
+  {% if place_list %}
+    {% for place in place_list %}
+      <div class="col">
+        <div class="card place-columns" style="width: 18rem;">
+            <img src="{{ place.placeimage }}" class="card-img-top" alt="...">
+            
+            <div class="card-body">
+            <h5 class="card-title">{{ place.placename }}</h5>
+            <p class="card-text">{{ place.placetagline }}</p>
+            <a href= "{{ place.get_absolute_url }} " class="btn btn-primary"> Explore {{ place.placename }}</a>
+            
+
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+  
+  {% else %}
+    <p>There are no places in the library.</p>
+  {% endif %} 
+{% endblock %}

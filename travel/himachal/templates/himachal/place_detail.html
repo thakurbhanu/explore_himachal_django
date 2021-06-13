@@ -1,0 +1,46 @@
+{% extends "base_for_place.html" %}
+
+{% block content %}
+
+  
+{% endblock %}
+
+
+{% block page_text_1 %}
+
+{{ place.placedescription1 }}
+
+{% endblock %}
+
+
+
+
+{% block page_text_2 %}
+
+{{ place.placedescription2 }}
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+{% block googlelink %}
+<div class="container-fluid google-map-section">
+  <div class="row shadow-class google-map-section">
+      <div class="col text-center">
+        <h1 id="map-text">Explore {{ place.placename }} on Google Maps</h1>
+      </div>
+      <div class="col text-center">
+        <a id="map-button" href="{{ place.placegooglemap }}" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Go to google maps : {{ place.placename }} </a>
+      </div>
+  </div>
+</div>
+
+{% endblock %}
