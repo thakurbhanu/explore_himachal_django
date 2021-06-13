@@ -3,4 +3,4 @@
 
 ----------------------------------------
 
-/static/catalog\images\b.png
+/static/himachal/images/b.png
