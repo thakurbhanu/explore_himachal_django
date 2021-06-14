@@ -5,13 +5,13 @@ from django.urls import reverse # Used to generate URLs by reversing the URL pat
 
 
 class place(models.Model):
-    placename = models.CharField(max_length=200, default="#")
+    placename = models.CharField(max_length=200, default="")
   
-    placeimage = models.CharField(max_length=5000, null=True, blank=True, default="#")
-    placetagline = models.CharField(max_length=200, default="#")
-    placedescription1 = models.TextField(max_length=5000, null=True, blank=True, default="#")
-    placedescription2 = models.TextField(max_length=5000, null=True, blank=True, default="#")
-    placegooglemap = models.CharField(max_length=200, null=True, blank=True, default="#")
+    placeimage = models.CharField(max_length=5000, null=True, blank=True, default="")
+    placetagline = models.CharField(max_length=200, default="")
+    placedescription1 = models.TextField(max_length=5000, null=True, blank=True, default="")
+    placedescription2 = models.TextField(max_length=5000, null=True, blank=True, default="")
+    placegooglemap = models.CharField(max_length=200, null=True, blank=True, default="")
     
 
     def __str__(self):
